@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NorthWind.API</name>
+    </assembly>
+    <members>
+        <member name="M:NorthWind.API.Controllers.TrafficController.push(System.Int32,FM.Business.Models.LatLng)">
+            <summary>
+            Đẩy thông tin tắc đường
+            </summary>
+            <param name="latLng"></param>
+            <returns>Kết quả lưu thông tin</returns>
+            <response code="200">Đăng thông tin thành công</response>
+            <response code="400">Đăng thông tin thất bại</response>
+        </member>
+        <member name="M:NorthWind.API.Controllers.TrafficController.list(FM.Business.Models.LatLng)">
+            <summary>
+            Lấy danh sách thông tin tắc đường trong bán kính theo tọa độ người dùng
+            </summary>
+            <param name="latLng"></param>
+            <returns>Danh sách kết quả thông tin tắc đường</returns>
+            <response code="200"></response>
+        </member>
+    </members>
+</doc>
